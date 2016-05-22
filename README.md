@@ -3,7 +3,7 @@ Clone of range() function as you know it from Python 2.X.
 
 ## Usage
 
-Basically it is just set of overriden functions that will create vector with range from start to end with stepping. You can use ussual as you would in Python, like range(0, 100, -3.14) for reverse ordering etc. 
+Basically it is just set of overriden functions that will create vector with range from start to end with stepping. You can use ussual as you would in Python, like range(0.0, 100.0, -3.14) for reverse ordering etc. 
 
 ```
 #include <iostream>
