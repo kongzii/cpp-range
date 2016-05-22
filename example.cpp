@@ -31,4 +31,6 @@ int main() {
 	for(auto i : range(-5.0, 24.0, -1.7)) {
 		cout << i << " ";
 	} cout << std::endl;
+
+	return 0;
 }

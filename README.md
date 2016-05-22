@@ -20,7 +20,7 @@ int main() {
 		cout << i << " ";
 	} cout << std::endl;
 
-	// 
+	// Two-input range
 	for(auto i : range(-5, 4)) {
 		cout << i << " ";
 	} cout << std::endl;
@@ -39,5 +39,7 @@ int main() {
 	for(auto i : range(-5.4, 24.1, -1.7)) {
 		cout << i << " ";
 	} cout << std::endl;
+
+	return 0;
 }
 ```
