@@ -1,0 +1,7 @@
+#!/bin/bash
+# Run add, commit and push git
+
+git add . --all
+git commit -m "change"
+git push
+

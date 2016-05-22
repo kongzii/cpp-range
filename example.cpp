@@ -1,11 +1,3 @@
-# cpp-range
-Clone of range() function as you know it from Python 2.X.
-
-## Usage
-
-Basically it is just set of overriden functions that will create vector with range from start to end with stepping. You can use ussual as you would in Python, like range(0, 100, -3.14) for reverse ordering etc. 
-
-```
 #include <iostream>
 #include "range.h"
 
@@ -20,7 +12,7 @@ int main() {
 		cout << i << " ";
 	} cout << std::endl;
 
-	// 
+	// Two-input range
 	for(auto i : range(-5, 4)) {
 		cout << i << " ";
 	} cout << std::endl;
@@ -36,8 +28,7 @@ int main() {
 	} cout << std::endl;
 
 	// Floats
-	for(auto i : range(-5.4, 24.1, -1.7)) {
+	for(auto i : range(-5.0, 24.0, -1.7)) {
 		cout << i << " ";
 	} cout << std::endl;
 }
-```
